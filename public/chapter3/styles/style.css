@@ -1,0 +1,519 @@
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  /* background: black !important; */
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.my-navbar {
+  border: 0;
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+a.nav-link {
+  font-weight: 700 !important;
+}
+
+ul.my-nav-item {
+  padding-left: 100px;
+}
+
+ul > li.nav-item {
+  font-size: 12px;
+  padding: 10px;
+  letter-spacing: 10%;
+}
+
+ul > li > a.nav-link {
+  color: white !important;
+}
+
+#hero {
+  position: relative;
+}
+
+#hero::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url('../assets/main-bg.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  filter: contrast(1); 
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+h1.main-title {
+  margin-top: 180px;
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.subtitle {
+  font-size: 36px;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0;
+}
+
+.btn-play {
+  padding: 0 10em !important;
+  font-size: 12px !important;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700 !important;
+  margin-top: 9%;
+}
+
+.scroll-down {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#games {
+  height: 100vh;
+  position: relative;
+  background-image: url('../assets/the-games-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0 50px 1px rgb(0, 0, 0);
+}
+
+#games::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url('../assets/the-games-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0 50px 1px rgb(0, 0, 0);
+}
+
+.games-img {
+  width: 80%;
+  height: 100%;
+  position: relative;
+}
+
+.games-title {
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+h1.games-text {
+  font-size: 56px;
+  letter-spacing: 3px;
+}
+
+.my-ellipse {
+  position: absolute;
+  margin-bottom: 8px;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#features {
+  height: 100vh;
+  background-image: url('../assets/features.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0 50px 1px rgb(0, 0, 0);
+}
+
+.features-content {
+  float: right;
+}
+
+.features-subtitle {
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+h1.features-text {
+  font-size: 56px;
+  letter-spacing: 3px;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-self: center;
+  position: relative;
+  height: 250px;
+}
+
+.ellipse-full-timeline {
+  top: 3%;
+  left: 0;
+  position: absolute;
+}
+
+.v-line {
+  border-left: thin solid #fff;
+  height: 140px;
+  top: 8px;
+  left: 8px;
+  position: absolute;
+}
+
+.ellipse-outline-timeline {
+  bottom: 35%;
+  position: absolute;
+}
+
+.ellipse-second-outline-timeline {
+  bottom: 11%;
+  position: absolute;
+}
+
+.timeline-title-container {
+  width: 50%;
+  margin-left: 4em;
+}
+
+.timeline-title {
+  font-size: 24px;
+  color: #F0AD45;
+}
+
+.timeline-subtitle {
+  font-size: 20px;
+}
+
+#requirements {
+  min-height: 100vh;
+  position: relative;
+}
+
+#requirements::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url('../assets/requirements.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .95;
+  box-shadow: 0 0 50px 1px rgb(0, 0, 0);
+}
+
+h1.requirements-title {
+  letter-spacing: 3px;
+}
+
+.require {
+  font-size: 24px;
+  color: #F0AD45;
+}
+
+#top-scores {
+  height: 100vh;
+  position: relative;
+}
+
+#top-scores::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url('../assets/top-score-bg.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top-scores-left {
+  margin-top: 300px;
+}
+
+h1.top-scores-title {
+  font-size: 56px;
+  letter-spacing: 3px;
+}
+
+.see-more-btn {
+  padding: 1.5em 8em !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  margin-top: 9%;
+}
+
+.card-container {
+  margin-top: 30px;
+}
+
+.card {
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/blankimage.jpg'); */
+  background-color: #1C1E1F !important;
+  border: none !important;
+  border-radius: 10px !important;
+  background-blend-mode: darken;
+}
+
+.card-container:nth-child(odd) .card {
+  margin-left: 120px;
+}
+
+.profle-img {
+  width: 50px;
+  height: 50px;
+  box-shadow: 8px 2px 1px 0 #FFB548;
+}
+
+.card-text-subtitle {
+  font-weight: 500;
+  color: #8C8D8E;
+}
+
+.column-profile {
+  margin-left: 1.3em;
+  line-height: 0;
+}
+
+.column-profile > h5 {
+  color: #F0AD45;
+}
+
+.twitter-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.card-text-reviews {
+  margin-top: 1.5em;
+  line-height: 1;
+}
+
+.card-text-date {
+  font-size: 14px;
+  color: #787979;
+  line-height: 1;
+}
+
+#newsletter {
+  height: 100vh;
+  position: relative;
+}
+
+#newsletter::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url('../assets/newsletter.png'), linear-gradient(#080A0B, #080A0B);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.skull-img {
+  position: relative;
+  height: 780px;
+  background: url("../assets/skull.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+.skull-img::after {
+  content: '';
+  position: absolute;
+  width: 650px;
+  height: 100vh;
+  background: url(../assets//top-score-bg\(2\).png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75% 95%;
+  top: -200px;
+  right: -30px;
+}
+
+.newsletter-text {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1;
+  width: 10rem;
+}
+
+h1.newsletter-title {
+  letter-spacing: 3px;
+}
+
+.newsletter-subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.container-span {
+  background-color: #1C1E1F;
+  border: none;
+  border-radius: 8px;
+  height: 4rem;
+}
+
+span {
+  margin: 1.5rem;
+}
+
+span.email-label {
+  font-size: 14px;
+}
+
+.btn-subscribe {
+  padding: 0 5em !important;
+  font-size: 16px!important;
+  font-weight: 700 !important;
+}
+
+ul > li.footer-nav-text {
+  list-style-type: none;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 1.5em 32px;
+}
+
+ul > li.footer-nav-img {
+  list-style-type: none;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 1.5em 2em;
+}
+
+hr.footer-line {
+  top: 150px;
+  border: 1px solid #8C8D8E;
+}
+
+@media only screen and (max-width: 1360px) {
+
+  h1.main-title {
+    font-size: 76px;
+    font-weight: 600;
+    margin-top: 150px;
+  }
+
+  .subtitle {
+    font-size: 36px;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0;
+  }
+
+  .btn-play {
+    padding-left: 8em !important;
+    padding-right: 8em !important;
+    font-size: 12px !important;
+    font-weight: 800 !important;
+    margin-top: 5%;
+  }
+
+  hr {
+    display: block !important;
+    height: 1px !important;
+    border: 0 !important;
+    border-top: 1px solid #ccc !important;
+    margin: 1em 0 !important;
+    padding: 0 !important;
+  }
+
+  .timeline-title-container {
+    width: 70%;
+    margin-left: 4em;
+  }
+  .card-container {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  
+  h1.main-title {
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 150px;
+  }
+
+  .subtitle {
+    font-size: 28px;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0;
+  }
+
+  .btn-play {
+    padding-left: 6em !important;
+    padding-right: 6em !important;
+    font-size: 12px !important;
+    font-weight: 800 !important;
+    margin-top: 15%;
+  }
+
+  hr {
+    display: block !important;
+    height: 1px !important;
+    border: 0 !important;
+    border-top: 1px solid #ccc !important;
+    margin: 1em 0 !important;
+    padding: 0 !important;
+  }
+
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-self: center;
+    position: relative;
+    height: 285px;
+  }
+
+  .v-line {
+    border-left: thin solid #fff;
+    height: 162px;
+    top: 8px;
+    left: 8px;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  h1.main-title {
+    font-size: 36px !important;
+    font-weight: 400;
+  }
+
+  .subtitle {
+    font-size: 24px !important;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0;
+  }
+}
