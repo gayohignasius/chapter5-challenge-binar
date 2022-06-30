@@ -4,9 +4,11 @@ const authLogin = (req, res) => {
   const username = req.body.username.toLowerCase();
   const password = req.body.password;
 
-  const selectedUser = userData.find((index) => index.username == username);
+  const selectedUser = userData.find(
+    (index) => index.username == username && index.password == password
+  );
 
-  if (selectedUser.username == username && selectedUser.password == password) {
+  if (selectedUser) {
     res
       .status(200)
       .json({ status: 200, message: "Login success!", data: selectedUser });
